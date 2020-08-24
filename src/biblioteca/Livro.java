@@ -2,7 +2,9 @@ package biblioteca;
 
 public class Livro {
 
-	public String titulo;
+	private String titulo;
+	private int numPaginas;
+	private String autor;
 	
 	public String getTitulo() {
 		return this.titulo;

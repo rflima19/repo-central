@@ -9,4 +9,6 @@ public class Usuario {
 	public void excluir() {
 		
 	}
+	private int id;
+	private String nome;
 }
